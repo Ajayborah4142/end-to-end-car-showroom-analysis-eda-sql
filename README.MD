@@ -1,12 +1,12 @@
-# 🚗 Car Showroom Data Analysis using SQL  
+#  Car Showroom Data Analysis using SQL  
 
-## 📊 Project Overview
+##  Project Overview
 This project analyzes a **car showroom database** to uncover insights about **sales performance, customer behavior, inventory management, and profitability**.  
 The analysis was performed entirely using **MySQL**, applying **joins, subqueries, window functions, and aggregate analysis** to generate 30 key business insights.
 
 ---
 
-## 🧩 Database Structure
+##  Database Structure
 
 **Database:** `Car_ShowRoom`
 
@@ -33,16 +33,16 @@ LOAD DATA LOCAL INFILE 'C:/Users/.../Sales.csv' INTO TABLE sales;
 
 | # | Analysis Question | Key Finding |
 |---|-------------------|-------------|
-| 1️⃣ | **Total revenue generated** | 💰 **$1,146,524,572.66** total sales revenue |
-| 2️⃣ | **Top Brand & Model** | 🚗 **Toyota Camry – $73.6M** |
-| 3️⃣ | **Best Month & Year for Sales** | 📅 **October 2011 – 93 cars sold** |
-| 4️⃣ | **Average Sale Price** | 💵 **$57,421.35** |
-| 5️⃣ | **Top 5 Salespersons** | 🏆 Monica Potter, Kevin Webster, Samuel Rodriguez, etc. |
-| 6️⃣ | **Top 5 Sold Models** | 🔥 Sunny (1326), Model X (1296), Camry (1266), GLA (1173), Qashqai (1093) |
-| 7️⃣ | **Most Preferred Payment Method** | 💳 Installment (3395) |
-| 8️⃣ | **Average Quantity per Sale** | 🧾 1.99 cars/transaction |
-| 9️⃣ | **Cars Sold vs Stock** | 📦 19,979 sold vs 99,903 in stock |
-| 🔟 | **Most vs Least Sold Color** | 🎨 Black (3918) vs Silver (2821) |
+| 1️ | **Total revenue generated** |  **$1,146,524,572.66** total sales revenue |
+| 2️ | **Top Brand & Model** |  **Toyota Camry – $73.6M** |
+| 3️ | **Best Month & Year for Sales** |  **October 2011 – 93 cars sold** |
+| 4️ | **Average Sale Price** |  **$57,421.35** |
+| 5️ | **Top 5 Salespersons** |  Monica Potter, Kevin Webster, Samuel Rodriguez, etc. |
+| 6️ | **Top 5 Sold Models** |  Sunny (1326), Model X (1296), Camry (1266), GLA (1173), Qashqai (1093) |
+| 7️ | **Most Preferred Payment Method** |  Installment (3395) |
+| 8️ | **Average Quantity per Sale** |  1.99 cars/transaction |
+| 9️ | **Cars Sold vs Stock** |  19,979 sold vs 99,903 in stock |
+| 10 | **Most vs Least Sold Color** |  Black (3918) vs Silver (2821) |
 
 ---
 
@@ -50,16 +50,16 @@ LOAD DATA LOCAL INFILE 'C:/Users/.../Sales.csv' INTO TABLE sales;
 
 | # | Analysis Question | Key Finding |
 |---|-------------------|-------------|
-| 11️⃣ | **Average Age of Buyers** | 👤 44.33 years |
-| 12️⃣ | **Top City by Sales** | 🏙️ Port Christopher – $2.8M revenue |
-| 13️⃣ | **Repeat Customers** | 🔁 9,924 repeat customers |
-| 14️⃣ | **Gender vs Car Price** | ⚖️ Both genders buy equally priced cars |
-| 15️⃣ | **Top Age Group** | 📊 25–40 years |
-| 16️⃣ | **Highest Spending Customers** | 💎 1,986 high-value customers |
-| 17️⃣ | **Highest Avg Purchase City** | 🏘️ 1,851 unique cities analyzed |
-| 18️⃣ | **New vs Returning Customers** | 🆕 90 new vs 🔁 1910 returning customers |
-| 19️⃣ | **Most Preferred Engine Type** | ⚙️ 2,681 purchases for top engine type |
-| 20️⃣ | **Transmission Preference (Age)** | 👴 Older: Manual (3135), 👶 Younger: Manual (2008) |
+| 11️ | **Average Age of Buyers** |  44.33 years |
+| 12️ | **Top City by Sales** |  Port Christopher – $2.8M revenue |
+| 13️ | **Repeat Customers** |  9,924 repeat customers |
+| 14️ | **Gender vs Car Price** |  Both genders buy equally priced cars |
+| 15️ | **Top Age Group** |  25–40 years |
+| 16️ | **Highest Spending Customers** |  1,986 high-value customers |
+| 17️ | **Highest Avg Purchase City** |  1,851 unique cities analyzed |
+| 18️ | **New vs Returning Customers** |  90 new vs  1910 returning customers |
+| 19️ | **Most Preferred Engine Type** |  2,681 purchases for top engine type |
+| 20️ | **Transmission Preference (Age)** |  Older: Manual (3135),  Younger: Manual (2008) |
 
 ---
 
@@ -67,40 +67,40 @@ LOAD DATA LOCAL INFILE 'C:/Users/.../Sales.csv' INTO TABLE sales;
 
 | # | Analysis Question | Key Finding |
 |---|-------------------|-------------|
-| 21️⃣ | **Low Stock (<5 units)** | ⚠️ 117 low-stock models |
-| 22️⃣ | **Unsold Cars (Zero Sales)** | ✅ None — all cars sold at least once |
-| 23️⃣ | **Total Inventory Value** | 💰 $291,920,325.69 |
-| 24️⃣ | **Avg Time to Sell (Years)** | ⏱️ -4.11 years (newer models sold faster) |
-| 25️⃣ | **Fastest Turnover Models** | ⚡ Nissan Altima, Qashqai, Tesla Model S |
-| 26️⃣ | **Stockout Trends** | 🎯 Frequent for Tesla (Red), Hyundai (Gray), BMW (White) |
+| 21️ | **Low Stock (<5 units)** |  117 low-stock models |
+| 22️ | **Unsold Cars (Zero Sales)** |  None — all cars sold at least once |
+| 23️ | **Total Inventory Value** |  $291,920,325.69 |
+| 24️ | **Avg Time to Sell (Years)** |  -4.11 years (newer models sold faster) |
+| 25️ | **Fastest Turnover Models** |  Nissan Altima, Qashqai, Tesla Model S |
+| 26️ | **Stockout Trends** |  Frequent for Tesla (Red), Hyundai (Gray), BMW (White) |
 
 ---
 
-## 💹 4. Profitability & Growth Insights
+##  4. Profitability & Growth Insights
 
 | # | Analysis Question | Key Finding |
 |---|-------------------|-------------|
-| 27️⃣ | **Highest Profit Margin Model** | 💸 BMW 5 Series – Avg Margin $10,536 |
-| 28️⃣ | **Monthly Sales Trend** | 📆 366 months of data analyzed |
-| 29️⃣ | **Most Consistent Salesperson** | 👔 9,997 salesperson-month records analyzed |
-| 30️⃣ | **Top 3 Growth Strategies** | 🚀 See below |
+| 27️ | **Highest Profit Margin Model** |  BMW 5 Series – Avg Margin $10,536 |
+| 28️ | **Monthly Sales Trend** |  366 months of data analyzed |
+| 29️ | **Most Consistent Salesperson** |  9,997 salesperson-month records analyzed |
+| 30️ | **Top 3 Growth Strategies** |  See below |
 
 ---
 
-## 🧠 Top 3 Data-Driven Strategies to Boost Sales
+##  Top 3 Data-Driven Strategies to Boost Sales
 
-1️⃣ **Target High-Value Customers**  
+1️ **Target High-Value Customers**  
    Focus marketing on top spenders (over $700K–$1M). Offer loyalty programs and exclusive deals.  
 
-2️⃣ **Restock & Promote Fast-Selling Models**  
+2️ **Restock & Promote Fast-Selling Models**  
    Keep inventory of bestsellers (Sunny, Camry, Model X) consistent to prevent missed sales.  
 
-3️⃣ **Promote Low-Performing Brands**  
+3️ **Promote Low-Performing Brands**  
    Brands like Hyundai and Toyota have large stock but low sales — discount offers and financing could help.  
 
 ---
 
-## 🧰 Tools & Technologies
+##  Tools & Technologies
 
 | Category | Tools / Concepts |
 |-----------|------------------|
@@ -124,7 +124,7 @@ LOAD DATA LOCAL INFILE 'C:/Users/.../Sales.csv' INTO TABLE sales;
 
 ---
 
-## 🏁 Key Business Takeaways
+##  Key Business Takeaways
 
 - The showroom generated **over $1.14B in total revenue**.  
 - **Toyota Camry** and **Sunny** are the top-selling models.  
@@ -145,13 +145,13 @@ LOAD DATA LOCAL INFILE 'C:/Users/.../Sales.csv' INTO TABLE sales;
 
 ---
 
-## 👨‍💻 Author
+##  Author
 
 **Ajay Borah**  
-📧 Email: [ajayborah4142@gmail.com]  
-💼 GitHub: [https://github.com/Ajayborah4142]
-🧠 Passionate about SQL, data analytics, and business insights.  
+ Email: [ajayborah4142@gmail.com]  
+ GitHub: [https://github.com/Ajayborah4142]
+ Passionate about SQL, data analytics, and business insights.  
 
 ---
 
-⭐ *If you find this project useful, don’t forget to star the repository!*
+ *If you find this project useful, don’t forget to star the repository!*
