@@ -148,8 +148,8 @@ LOAD DATA LOCAL INFILE 'C:/Users/.../Sales.csv' INTO TABLE sales;
 ## 👨‍💻 Author
 
 **Ajay Borah**  
-📧 Email: [Your Email Here]  
-💼 GitHub: [https://github.com/yourusername](https://github.com/yourusername)  
+📧 Email: [ajayborah4142@gmail.com]  
+💼 GitHub: [https://github.com/Ajayborah4142]
 🧠 Passionate about SQL, data analytics, and business insights.  
 
 ---
